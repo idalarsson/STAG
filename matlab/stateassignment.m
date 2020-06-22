@@ -36,7 +36,7 @@ elseif strcmp(scoreMethod,'geneset')
     geneSets=readtable(x);
     prompt2='What direction is your genesets? ';
     y=input(prompt2);
-    %Detta fungerar inte än
+    %Detta fungerar inte Ã¤n
     [~,b]=size(geneSets);
     [c,d]=size(expMat);
     d=(d-3);
