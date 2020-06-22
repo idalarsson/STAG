@@ -1,1 +1,1 @@
-# Genome-scale modeling of phenotypic switching
+# Genome-scale modeling of phenotypic switching in GBM
