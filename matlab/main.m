@@ -4,7 +4,7 @@
 % genes (opt.),barcodes,timepoints,treatments and states (opt.) as columns.
 
 %% Step 1: Input data
-load('expressionMatrices.mat')
+load('../expressionMatrices.mat')
 
 %% Step 2a: Assign states to cells (optional)
 % This step can be skipped if state assignment has been made separately
