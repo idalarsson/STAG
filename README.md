@@ -1,1 +1,2 @@
-# Genome-scale modeling of phenotypic switching in GBM
+# Barcoding
+Genome-scale modeling of phenotypic switching in glioblastoma
