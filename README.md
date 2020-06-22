@@ -14,5 +14,8 @@ Timepoint: The timepoint the cell was sampled
 Treatment: Single digit (1,2,...,n). If no treatment, 1 for all cells.  
 State: Single digit (1,2,...,n) if this has been assigned before. Can also be assigned within the code.  
 
+## Pipeline
+Follow the script main.m
 
+## Output files
 
