@@ -17,5 +17,5 @@ State: Single digit (1,2,...,n) if this has been assigned before. Can also be as
 ## Pipeline
 Follow the script main.m
 
-## Output files
-
+## Output
+A-matrix with transition and growth rates
