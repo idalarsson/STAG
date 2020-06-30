@@ -1,4 +1,4 @@
-# State Transitions and Growth (STAG) models
+# State Transitions and Growth (STAG) model
 Genome-scale modeling of phenotypic switching in glioblastoma
 
 ## Requirements
