@@ -1,4 +1,4 @@
-# Barcoding
+# State Transitions and Growth (STAG) models
 Genome-scale modeling of phenotypic switching in glioblastoma
 
 ## Requirements
@@ -6,7 +6,7 @@ Matlab (R2019a)
 CVX: Matlab Software for Disciplined Convex Programming
 
 ## Input files
-The scripts require an input matrix where each row represents a single cell, and the columns are genes (opt.), barcode, timepoint, treatment and state (opt.) according to  
+STAG requires an input matrix where each row represents a single cell, and the columns are genes (opt.), barcode, timepoint, treatment and state (opt.) according to  
 
 Genes: Normalized expression values, if states should be assigned within the pipeline.
 Barcode: The barcode retrieved for each individual cell  
