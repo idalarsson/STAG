@@ -1,5 +1,5 @@
 # State Transitions and Growth (STAG) model
-Genome-scale modeling of phenotypic switching in glioblastoma
+Genome-scale modeling of temporal dynamics in glioblastoma
 
 ## Requirements
 Matlab (R2019a)  
