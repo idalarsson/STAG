@@ -3,8 +3,11 @@
 % It starts from the expression matrix with cells as rows and
 % genes (opt.),barcodes,timepoints,treatments and states (opt.) as columns.
 
+% Code below is for generating networks for U3065MG, untreated and treated.
+% Required data input for U3017MG and U3071MG is provided.
+
 %% Step 1: Input data
-load('../expressionMatrices.mat')
+load('../expressionMatrices_20210622.mat')
 
 %% Step 2a: Assign states to cells (optional)
 % This step can be skipped if state assignment has been made separately
@@ -34,7 +37,7 @@ plotmynetwork(AhatOrig,0.01);
 
 %% Step 3: Construct the treatment network
 
-[X,design]=datatobarcodedata(expMat);
+[X,design]=datatobarcodedata(expMatTreatment);
 
 samplefractions=[1 0 0.7;1 8 1*(1/3);2 0 0.7;2 8 1*(1/3);3 0 0.7;3 8 1*(1/3)]; 
 sparsity_joint=1.1; 
@@ -72,4 +75,5 @@ cvx_begin quiet
             sum(sum(abs((dA)-diag(diag((dA))))))<= sparsity
             diag((A+dA))<=-sum(abs(((A+dA)-diag(diag((A+dA))))'))'
 cvx_end
+
 
