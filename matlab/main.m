@@ -76,4 +76,8 @@ cvx_begin quiet
             diag((A+dA))<=-sum(abs(((A+dA)-diag(diag((A+dA))))'))'
 cvx_end
 
+%% Step 6: Predict state equilibrium
+
+[V,D]=eig(Ahat);
+stateEq=V(:,1)/sum(V(:,1));
 
