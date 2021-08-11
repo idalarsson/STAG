@@ -1,7 +1,7 @@
 # State Transitions and Growth (STAG) model <img src="https://user-images.githubusercontent.com/43134255/128992022-60ca394f-741a-45a3-8759-818d8b457cd9.png" width="100" height="100">
 
 
-Modeling glioblastoma heterogeneity as a network of cell states
+Modeling glioblastoma heterogeneity as a dynamic network of cell states
 
 ## Requirements
 Matlab (R2019a)  
